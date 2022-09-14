@@ -53,16 +53,16 @@ function VerifyEmail() {
   return (
     <div className='center'>
       <div className='verifyEmail'>
-        <h1>Verify your Email Address</h1>
+        <h1>Cadastro Realizado com sucesso</h1>
         <p>
-          <strong>A Verification email has been sent to:</strong><br/>
+          <strong>O seu login de usuário é:</strong><br/>
           <span>{currentUser?.email}</span>
         </p>
-        <span>Follow the instruction in the email to verify your account</span>       
-        <button 
+        <span>Agora abra o aplicativo instalado no seu celular e informe na tela de login o email acima e a senha definida por você na tela anterior</span>       
+        {/* <button 
           onClick={resendEmailVerification}
           disabled={timeActive}
-        >Resend Email {timeActive && time}</button>
+        >Resend Email {timeActive && time}</button> */}
       </div>
     </div>
   )

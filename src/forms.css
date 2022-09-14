@@ -25,7 +25,7 @@
   margin-bottom: 20px;
 }
 
-.auth form > input, button{
+.auth form > input, select, button{
   height: 40px;
   font-size: 16px;
   padding: 0 10px;

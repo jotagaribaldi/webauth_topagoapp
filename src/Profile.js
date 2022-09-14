@@ -10,12 +10,12 @@ function Profile() {
   return (
       <div className='center'>
         <div className='profile'>
-          <h1>Profile</h1>
+          <h1>Conta criada com sucesso!</h1>
           <p><strong>Email: </strong>{currentUser?.email}</p>
-          <p>
+          {/* <p>
             <strong>Email verified: </strong>
             {`${currentUser?.emailVerified}`}
-          </p>
+          </p> */}
           <span onClick={() => signOut(auth)}>Sign Out</span>
         </div>
       </div>

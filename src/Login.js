@@ -37,27 +37,28 @@ function Login(){
     <div className='center'>
       <div className='auth'>
         <h1>Log in</h1>
+        <h3>ToPago Cashback</h3>
         {error && <div className='auth__error'>{error}</div>}
         <form onSubmit={login} name='login_form'>
           <input 
             type='email' 
             value={email}
             required
-            placeholder="Enter your email"
+            placeholder="Entre com seu email"
             onChange={e => setEmail(e.target.value)}/>
 
           <input 
             type='password'
             value={password}
             required
-            placeholder='Enter your password'
+            placeholder='Entre com sua senha'
             onChange={e => setPassword(e.target.value)}/>
 
           <button type='submit'>Login</button>
         </form>
         <p>
-          Don't have and account? 
-          <Link to='/register'>Create one here</Link>
+          Ainda não tem sua conta de usuário? 
+          <Link to='/register'>Crie uma já!</Link>
         </p>
       </div>
     </div>
