@@ -10,7 +10,7 @@ function Profile() {
   return (
       <div className='center'>
         <div className='profile'>
-          <h1>Conta criada com sucesso!</h1>
+          <h1>Conta criada com sucesso!!</h1>
           <p><strong>Email: </strong>{currentUser?.email}</p>
           {/* <p>
             <strong>Email verified: </strong>

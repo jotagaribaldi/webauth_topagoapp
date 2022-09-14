@@ -33,7 +33,7 @@ function Register() {
 
   
   
-  const bookCollectionRef = collection(db, "books");
+  const bookCollectionRef = collection(db, "usuarios");
 
   const optionsGrupos = [
     { label: 'selecione...', value: 'selecione...' },
@@ -92,14 +92,11 @@ function Register() {
     e.preventDefault()
     setError('')
     if(validatePassword()) {
-      // Create a new user with email and password using firebase
-        //createUserWithEmailAndPassword(auth, email, password)
+     
         createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
           let user = userCredential.user;
-          //sendEmailVerification(auth.currentUser)   
-         // .then(() => {
-          //  setTimeActive(true)
+         
           return addDoc(bookCollectionRef, {
               codigoIndica: null,
               nomeUser: nomecompl,

@@ -37,7 +37,7 @@ function Login(){
     <div className='center'>
       <div className='auth'>
         <h1>Log in</h1>
-        <h3>ToPago Cashback</h3>
+        <h3>ToPago Cashback </h3>
         {error && <div className='auth__error'>{error}</div>}
         <form onSubmit={login} name='login_form'>
           <input 
@@ -57,7 +57,7 @@ function Login(){
           <button type='submit'>Login</button>
         </form>
         <p>
-          Ainda não tem sua conta de usuário? 
+          Ainda não tem uma conta de usuário? 
           <Link to='/register'>Crie uma já!</Link>
         </p>
       </div>

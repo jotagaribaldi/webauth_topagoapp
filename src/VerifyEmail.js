@@ -53,7 +53,7 @@ function VerifyEmail() {
   return (
     <div className='center'>
       <div className='verifyEmail'>
-        <h1>Cadastro Realizado com sucesso</h1>
+        <h1>Cadastro Realizado com sucesso!</h1>
         <p>
           <strong>O seu login de usuário é:</strong><br/>
           <span>{currentUser?.email}</span>
