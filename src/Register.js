@@ -43,6 +43,7 @@ function Register() {
     { label: 'Cond. Residencial Classic / Palmas - TO', value: 'Cond. Residencial Classic' },
     { label: 'Cond. Smart Residence / Palmas - TO', value: 'Cond. Smart Residence' },
     { label: 'Cond. Cotovia / Palmas - TO', value: 'Cond. Cotovia' },
+    { label: 'Residencial Pantanal / Palmas - TO', value: 'Pantanal704' },
     { label: 'Cond. Palmeira Imperial / Palmas - TO', value: 'Cond. Palmeira Imperial' },
     { label: 'Cond. Residencial Bella Villa / Palmas - TO', value: 'Cond. Res. Bella Villa' },
     { label: 'Cond. Polinésia Residence / Palmas - TO', value: 'Cond. Res. Polinésia' }
